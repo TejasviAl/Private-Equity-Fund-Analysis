@@ -66,9 +66,10 @@ plt.grid(True)
 plt.show()
 
 # Save Report
-report_path = "beginner_fund_report.xlsx"
+report_path = "generated_fund_report.xlsx"
 fund_performance.to_excel(report_path, index=False)
 
 print(f"\n📑 Report generated and saved to {report_path}")
+
 
 
